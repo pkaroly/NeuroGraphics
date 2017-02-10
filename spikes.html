@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Spike & Seizure Rhythms</title>
+
+   <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Nav-bar CSS -->
+    <link href="css/nav2.css" rel="stylesheet">
+
+    <!-- Paper-specific styles (i.e. data charts) -->
+    <link href="css/spikes.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!-- if font-awesome is donwloaded -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="font-awesome/css/academicons.css">
+
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Homepage</a>
+                    </li>
+
+                    <li>
+                        <a href="#data-vis">Show me the data</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+<!--     <header class="intro-header" style="background-image: url('http://dbsierra.com/Images/Oscillate/Stills/still_2729.jpg')"> -->
+    <header class="intro-header" style="background-image: url('img/spikes/splash.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Interictal Spikes & Epileptic Seizures</h1>
+                        <h2 class="subheading">Circadian rhythms</h2>
+                        <span class="meta"> Philippa Karoly, Dean Freestone, Ray Boston, David Grayden, David Himes, Kent Leyde, Udaya Seneviratne, Samuel Berkovic, Terence O'Brien, Mark Cook</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Post Content -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+                    <h2 class="section-heading">Background</h2>
+
+                    <p>Here we analyse spontaneous epileptic "spike-wave discharages" recorded in 15 epilepsy patients. Data were acquired from implanted electrodes during a clinical trial (see <a href='http://www.thelancet.com/journals/laneur/article/PIIS1474-4422(13)70075-9/abstract' target = '_blank'>here</a> for details). Recording was continuous over 6 months - 3 years. Spike detection was automated using a template matching algorithm. </p>
+                    <p>
+                    Epileptic spikes can be detected using EEG and are thought to be due to large populations of neurons firing in sync. Healthy brains also show spike activity, but patients with epilepsy have far more frequent spike events. It is not clear if there is a direct link between spike-waves and seizures. Here we report on patterns of seizures and spike-waves, their relationship to each other, and the evidence of circadian rhythms.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class = 'contrast-section', id="results">
+        <div class="container">
+            <div class="row contrast-text">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <h2 class="section-heading">Key Results</h2>
+
+                    <p>Three patients showed a significant preseizure increase in spike rate, six patients showed a significant decrease, and no significant change was found in the remaining six patients. </p>
+
+
+
+                    <p><i>Comparison in spike rate between interictal and pre seizure times. The x axis indicates different subjects and the y axis is a normalized spike rate</i></p>
+                    <img src = "img/spikes/result1.jpg" />
+
+
+                    <hr>
+
+                    <p> Seizures and spikes showed clear circadian rhythms that were highly patient specific. Importantly there were times when seizures were extremely unlikely </p>
+
+                    <p><i>Circadian patterns of seizures<br></i></p>
+
+                    <!-- slider -->
+                <div class = "contrast-text">
+
+                    <label id = "pt-slider_text", class='small'>Patient 1 (use slider)</label>
+                    </div>
+                    <div class='contrast-text'>
+                    <input type="range" class="slider" id="pt-slider" value="1" min="1" max="6" step="1" >
+        
+                </div>
+
+                    <!-- patient 1 -->
+                    <div class = 'floating-box2 clickable' id = "p1"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/2.embed"></iframe>
+                    </div>
+                    <!-- patient 2 -->
+                    <div class = 'floating-box2 clickable' id = "p2"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/18.embed"></iframe>
+                    </div>
+                    <!-- patient 3 -->
+                    <div class = 'floating-box2 clickable' id = "p3"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/6.embed"></iframe>
+                    </div>
+                    <!-- patient 4 -->
+                    <div class = 'floating-box2 clickable' id = "p4"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/24.embed"></iframe>
+                    </div>
+                    <!-- patient 5 -->
+                    <div class = 'floating-box2 clickable' id = "p5"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/26.embed"></iframe>
+                    </div>
+                    <!-- patient 6 -->
+                    <div class = 'floating-box2 clickable' id = "p6"><iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~pikaro/28.embed"></iframe>
+                    </div>
+
+<!--                     <img src = "img/spikes/result2.jpg" />
+                    <p>
+                    <l style="color:magenta">clinical </l>
+                    <l style="color:yellow">clinically identical </l>
+                    <l style="color:cyan">sub-clinical</l></p> -->
+
+                    <hr>
+
+                    <p> Usually times of high spike and seizure likelihood were aligned for an individual. Alignment indicates a common factor regulating spikes and seizures (see plot below) </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Paper Data-Vis -->
+    <section class='contrast-section', id = 'data-vis'>
+        <div class='container'>
+
+             <!-- Heading -->
+            <div class='row'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 contrast-text">
+                <h2>Data Visualization</h2>
+                <l>
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Check out this seizure data" data-via="pjkaroly" data-size="large">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </l>
+                <p>This is an interactive plot to visualize average hourly spike rate and seizure rate over 24 hours. The rate is normalized to a range from 0% (minimum rate) to 100% (maximum rate) for each patient. <br>
+                The circle segments represent 1 hour (there are 24 segments) and each ring is a different patient (there are 15 rings in total). The rings can also be viewed individually. </p>
+                </div>
+            </div>
+ 
+            <div class = 'row warning'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class = 'contrast-text'>My data won't fit on your screen!</p>
+                </div>
+            </div>
+
+            <!-- Navigation Panel 1 -->
+            <div class = "row contrast-text">
+            <p>Plot patients: </p>
+             <div class="col-sm-2">
+                    <div class = "checkbox-major">
+                    <!-- DATA 1  -->
+                      <div> 
+                        <label> <input type = "checkbox" id = 'plot0'value = 0 checked = true/> Together </label>
+                      </div>
+
+                    <!-- DATA 2  -->
+                    <div class = "checkbox-major">
+                      <div> 
+                        <label> <input type = "checkbox" id = 'plot1' value = 1/> Individually </label>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class = 'row'></div>
+
+        <!-- PLOTS -->
+        <div class = 'row contrast-text'>
+
+                <div class = "col-sm-1 plot0show" style='margin-top:8%'> 
+<!--                     <l class = 'small' style='color:#F20D3A'> High </l>
+                    <img src = "img/spikes/colbar.jpg" />
+                    <l class = 'small' style = 'color:#0DC294'> Low </l> -->
+                </div>
+
+                <!-- Data Frame 1 -->
+                <div class="col-md-5 paper-text">
+                    <!-- <p class = 'plot0show' style="margin-left:42%">Spikes</p> -->
+                    <div id = "chart_area1" class = "chart-small paper-text">  </div> 
+                </div>
+
+
+
+                <!-- Data Frame 2 -->
+                <div class="col-md-5 col-md-offset-1 paper-text">
+                    <!-- <p class = 'plot0show' style="margin-left:42%">Seizures</p> -->
+                    <div id = "chart_area2" class = "chart-small paper-text">  </div>
+                </div>
+
+        </div>
+
+            <div class = 'row contrast-text'>
+                <!-- Data Frame 3 -->
+                <div class="col-md-6 paper-text">
+                    <div id = "chart_area3" class = "chart-big">  
+
+                        <!-- 15 Patient Blocks -->
+                        <div id = pt1 class = "floating-box"> </div>
+                        <div id = pt2 class = "floating-box"> </div>
+                        <div id = pt3 class = "floating-box"> </div>
+                        <div id = pt4 class = "floating-box"> </div>
+                        <div id = pt5 class = "floating-box"> </div>
+                        <div id = pt6 class = "floating-box"> </div>
+                        <div id = pt7 class = "floating-box"> </div>
+                        <div id = pt8 class = "floating-box"> </div>
+                        <div id = pt9 class = "floating-box"> </div>
+                        <div id = pt10 class = "floating-box"> </div>
+                        <div id = pt11 class = "floating-box"> </div>
+                        <div id = pt12 class = "floating-box"> </div>
+                        <div id = pt13 class = "floating-box"> </div>
+                        <div id = pt14 class = "floating-box"> </div>
+                        <div id = pt15 class = "floating-box"> </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- line -->
+            <p> </p>
+
+            <!-- Navigation Panel 2 -->
+            <div class = 'row' style = "display:none">
+                
+                <div class="col-sm-2">
+                <!-- SPIKE SLIDER 1  -->
+                <div class = "checkbox-major lo-text">
+                  <div> 
+                    <label> <input type = "checkbox" id = "low_spikes" value = 1 checked = true/> Low Rate </label>
+                  </div>
+
+                    <div class='lo-text'>
+                    <input type="range" name="range" class="slider" id="spike_slider1" value="10" min="0" max="50" step="10" >
+                    <label id = "spike_slider1_text"> < 10% </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <!-- SPIKE SLIDER 2 -->
+                <div class = "checkbox-major hi-text">
+
+                  <div> 
+                    <label> <input type = "checkbox" id = "hi_spikes" value = 1 checked = true/> High Rate </label>
+                  </div>
+
+                    <div class = "hi-text">
+                    <input type="range" class="slider" id="spike_slider2" value="90" min="50" max="100" step="10" >
+                    <label id = "spike_slider2_text"> > 90% </label>
+                    </div>
+                  </div>
+                  <!-- END SPIKE SLIDER -->
+
+              </div> 
+              <!-- end col -->
+
+              <div class="col-sm-2 col-sm-offset-2">              
+                <!-- SEIZURE SLIDER 1 -->
+                <div class = "checkbox-major lo-text">
+                  <div> 
+                    <label> <input type = "checkbox" id = "low_sz" value = 1 checked = true/> Low Rate </label>
+                  </div>
+
+                    <div class = "lo-text">
+                    <input type="range" name="range" class="slider" id="sz_slider1" value="10" min="0" max="50" step="10" >
+                    <label id = "sz_slider1_text"> < 10% </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-2">                
+                <!-- SEIZURE SLIDER 2 -->
+                <div class = "checkbox-major hi-text">
+
+                  <div> 
+                    <label> <input type = "checkbox" id = "hi_sz" value = 1 checked = true/> High Rate </label>
+                  </div>
+
+                    <div class = 'hi-text'>
+                    <input type="range" class="slider" id="sz_slider2" value="90" min="50" max="100" step="10" >
+                    <label id = "sz_slider2_text"> > 90% </label>
+                    </div>
+                  </div>
+                  <!-- END SZ SLIDER -->
+              </div>
+
+
+      </div>
+      <!-- end navigation -->
+
+        </div> <!-- end data container -->
+    </section>
+
+
+        <!-- itnerpretation -->
+    <section class = 'contrast-section', id="message">
+        <div class="container">
+            <div class="row contrast-text">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <h2 class="section-heading">Take home message</h2>
+
+                    <p>Spikes and seizures have a complex, patient-specific relationship</p>
+
+                    <p>Our findings show that spikes are neither exclusively protective or provocative. We also show that spikes and seizures are linked and are part of a larger continuum of epileptic events. </p> 
+
+                    <p>A major problem treating epilepsy is the intermittent nature of seizures, making it difficult to refine therapies. The circadian patterns and interrelationship between spikes and seizures that we have identified provide new treatment strategies for epilepsy. Understanding times of high and low seizure and spike likelihood could improve patient management, providing a means to titrate therapies, to forecast seizures and monitor new treatments. <p>
+
+                    <p>Our study highlight a need for devices that can perform chronic and continuous monitoring of neural signals in order to better manage epilepsy </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- contact us -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+                    <h2 class="section-heading">Contact Us</h2>
+
+                    <p> The authors contact details are: </p>               
+
+                <div class="col-md-4">
+                    <l>Philippa Karoly</l>
+                    <ul class="list-inline">
+                            <li>
+                                <a target = "_blank" href="https://twitter.com/intent/tweet?screen_name=pjkaroly" data-related="pjkaroly">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkaroly@student.unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Philippa_Karoly">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <l>Dean Freestone</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=deanrf@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Dean_Freestone">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div> 
+
+                <div class="col-md-4">
+                    <l>Mark Cook</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=markcook@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Mark_Cook">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                    </ul>
+                </div>   
+      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted"> Copyright &copy; 2015 Philippa Karoly  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+        <!-- Data-vis -->
+    <script type = "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/spikes.js"> </script>
+
+</body>
+
+</html>

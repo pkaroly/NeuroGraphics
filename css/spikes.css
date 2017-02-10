@@ -1,0 +1,111 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --red: '#F84F00';
+  --green: '#00A9F8';
+  --gray: 'black';
+}
+
+
+.chart-small {
+  width: 400px;
+  height: 400px;
+  color: white;
+  display: block;
+}
+
+.chart-big {
+  width: 900px;
+  height: 500px;
+  color: white;
+  display: none;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.floating-box2 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.clickable{
+  display: none;
+  visibility: hidden;
+}
+
+.warning{
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  #data_chart {
+    display: none;
+  }
+
+  .warning {
+    visibility: visible;
+    display: block;
+  }
+}
+
+
+.checkbox-major {
+  font-size: 14px;
+  color: white;
+  font-weight: 100;
+}
+
+.checkbox-minor {
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+}
+
+.contrast-text {
+  color:white;
+}
+
+.contrast-section{
+  background: black;
+}
+
+.hi-text{
+  color: #F84F00
+}
+
+.lo-text{
+  color: #00A9F8;
+}
+
+.axis path, .axis line {
+  fill: none;
+  /*stroke: #000;*/
+  stroke: white;
+  shape-rendering: crispEdges;
+  color: white;
+}
+
+.axis text {
+  fill: white;
+  font-size: 12px;
+}
+
+.x-label, .y-label {
+  fill: white;
+  stroke: white;
+  font-size: 12px;
+}
+
+
+}
