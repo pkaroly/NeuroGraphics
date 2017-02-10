@@ -24,7 +24,7 @@ h5,
 h6 {
     /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 a {
   color: #404040;
@@ -50,14 +50,14 @@ hr.small {
 
 
 .intro-header {
-  background-color: #808080;
+  background-color: #5B7F95;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
