@@ -1,0 +1,4457 @@
+[
+	{
+		"patient": 1,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.1256210861
+			},
+			{
+				"time": 1,
+				"value": 0.1921039885
+			},
+			{
+				"time": 2,
+				"value": 0.2932604761
+			},
+			{
+				"time": 3,
+				"value": 0.1944486071
+			},
+			{
+				"time": 4,
+				"value": 0.1539091143
+			},
+			{
+				"time": 5,
+				"value": 0.04933087559
+			},
+			{
+				"time": 6,
+				"value": 0.01989467596
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0.001736152693
+			},
+			{
+				"time": 9,
+				"value": 0.05635029902
+			},
+			{
+				"time": 10,
+				"value": 0.2443737946
+			},
+			{
+				"time": 11,
+				"value": 0.5819247498
+			},
+			{
+				"time": 12,
+				"value": 0.8053454258
+			},
+			{
+				"time": 13,
+				"value": 0.9699865032
+			},
+			{
+				"time": 14,
+				"value": 0.9303506844
+			},
+			{
+				"time": 15,
+				"value": 1
+			},
+			{
+				"time": 16,
+				"value": 0.9050449351
+			},
+			{
+				"time": 17,
+				"value": 0.7791376621
+			},
+			{
+				"time": 18,
+				"value": 0.6985378252
+			},
+			{
+				"time": 19,
+				"value": 0.624887689
+			},
+			{
+				"time": 20,
+				"value": 0.6176006571
+			},
+			{
+				"time": 21,
+				"value": 0.8764565733
+			},
+			{
+				"time": 22,
+				"value": 0.8310377967
+			},
+			{
+				"time": 23,
+				"value": 0.3178937138
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 8
+			},
+			{
+				"time": 1,
+				"value": 8
+			},
+			{
+				"time": 2,
+				"value": 4
+			},
+			{
+				"time": 3,
+				"value": 1
+			},
+			{
+				"time": 4,
+				"value": 2
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 1
+			},
+			{
+				"time": 9,
+				"value": 2
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 14
+			},
+			{
+				"time": 12,
+				"value": 1
+			},
+			{
+				"time": 13,
+				"value": 10
+			},
+			{
+				"time": 14,
+				"value": 16
+			},
+			{
+				"time": 15,
+				"value": 11
+			},
+			{
+				"time": 16,
+				"value": 9
+			},
+			{
+				"time": 17,
+				"value": 10
+			},
+			{
+				"time": 18,
+				"value": 19
+			},
+			{
+				"time": 19,
+				"value": 9
+			},
+			{
+				"time": 20,
+				"value": 3
+			},
+			{
+				"time": 21,
+				"value": 8
+			},
+			{
+				"time": 22,
+				"value": 4
+			},
+			{
+				"time": 23,
+				"value": 4
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 2
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 1
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 1
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 2,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.0155194061
+			},
+			{
+				"time": 1,
+				"value": 0.0724243048
+			},
+			{
+				"time": 2,
+				"value": 0.2869712559
+			},
+			{
+				"time": 3,
+				"value": 0.5841727209
+			},
+			{
+				"time": 4,
+				"value": 0.7977880263
+			},
+			{
+				"time": 5,
+				"value": 1
+			},
+			{
+				"time": 6,
+				"value": 0.782629096
+			},
+			{
+				"time": 7,
+				"value": 0.5949246906
+			},
+			{
+				"time": 8,
+				"value": 0.35121519
+			},
+			{
+				"time": 9,
+				"value": 0.2398469381
+			},
+			{
+				"time": 10,
+				"value": 0.2290350599
+			},
+			{
+				"time": 11,
+				"value": 0.1060223937
+			},
+			{
+				"time": 12,
+				"value": 0.07059105915
+			},
+			{
+				"time": 13,
+				"value": 0.0684423083
+			},
+			{
+				"time": 14,
+				"value": 0.06435952597
+			},
+			{
+				"time": 15,
+				"value": 0.05997668756
+			},
+			{
+				"time": 16,
+				"value": 0.05334454911
+			},
+			{
+				"time": 17,
+				"value": 0.05617534699
+			},
+			{
+				"time": 18,
+				"value": 0.07501620445
+			},
+			{
+				"time": 19,
+				"value": 0.05008859313
+			},
+			{
+				"time": 20,
+				"value": 0.02909420466
+			},
+			{
+				"time": 21,
+				"value": 0.006582541259
+			},
+			{
+				"time": 22,
+				"value": 0.00306033924
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 2
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 1
+			},
+			{
+				"time": 5,
+				"value": 1
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 2
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 3
+			},
+			{
+				"time": 12,
+				"value": 2
+			},
+			{
+				"time": 13,
+				"value": 3
+			},
+			{
+				"time": 14,
+				"value": 2
+			},
+			{
+				"time": 15,
+				"value": 3
+			},
+			{
+				"time": 16,
+				"value": 2
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 3
+			},
+			{
+				"time": 19,
+				"value": 1
+			},
+			{
+				"time": 20,
+				"value": 3
+			},
+			{
+				"time": 21,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 3,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.6141617332
+			},
+			{
+				"time": 1,
+				"value": 0.4768121225
+			},
+			{
+				"time": 2,
+				"value": 0.3951272795
+			},
+			{
+				"time": 3,
+				"value": 0.2605177145
+			},
+			{
+				"time": 4,
+				"value": 0.3307251952
+			},
+			{
+				"time": 5,
+				"value": 0.2625215635
+			},
+			{
+				"time": 6,
+				"value": 0.1803177367
+			},
+			{
+				"time": 7,
+				"value": 0.08435920826
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0.08319993239
+			},
+			{
+				"time": 10,
+				"value": 0.172344751
+			},
+			{
+				"time": 11,
+				"value": 0.6268260987
+			},
+			{
+				"time": 12,
+				"value": 0.826675575
+			},
+			{
+				"time": 13,
+				"value": 0.9111906687
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 0.9095457827
+			},
+			{
+				"time": 16,
+				"value": 0.7647462473
+			},
+			{
+				"time": 17,
+				"value": 0.725981363
+			},
+			{
+				"time": 18,
+				"value": 0.6159438727
+			},
+			{
+				"time": 19,
+				"value": 0.7234407231
+			},
+			{
+				"time": 20,
+				"value": 0.6422232239
+			},
+			{
+				"time": 21,
+				"value": 0.5132375439
+			},
+			{
+				"time": 22,
+				"value": 0.5795193795
+			},
+			{
+				"time": 23,
+				"value": 0.7526058
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 3
+			},
+			{
+				"time": 2,
+				"value": 3
+			},
+			{
+				"time": 3,
+				"value": 1
+			},
+			{
+				"time": 4,
+				"value": 1
+			},
+			{
+				"time": 5,
+				"value": 3
+			},
+			{
+				"time": 6,
+				"value": 2
+			},
+			{
+				"time": 7,
+				"value": 23
+			},
+			{
+				"time": 8,
+				"value": 10
+			},
+			{
+				"time": 9,
+				"value": 12
+			},
+			{
+				"time": 10,
+				"value": 20
+			},
+			{
+				"time": 11,
+				"value": 30
+			},
+			{
+				"time": 12,
+				"value": 22
+			},
+			{
+				"time": 13,
+				"value": 18
+			},
+			{
+				"time": 14,
+				"value": 21
+			},
+			{
+				"time": 15,
+				"value": 26
+			},
+			{
+				"time": 16,
+				"value": 16
+			},
+			{
+				"time": 17,
+				"value": 15
+			},
+			{
+				"time": 18,
+				"value": 15
+			},
+			{
+				"time": 19,
+				"value": 12
+			},
+			{
+				"time": 20,
+				"value": 9
+			},
+			{
+				"time": 21,
+				"value": 22
+			},
+			{
+				"time": 22,
+				"value": 8
+			},
+			{
+				"time": 23,
+				"value": 5
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 286
+			},
+			{
+				"time": 1,
+				"value": 236
+			},
+			{
+				"time": 2,
+				"value": 153
+			},
+			{
+				"time": 3,
+				"value": 60
+			},
+			{
+				"time": 4,
+				"value": 54
+			},
+			{
+				"time": 5,
+				"value": 54
+			},
+			{
+				"time": 6,
+				"value": 18
+			},
+			{
+				"time": 7,
+				"value": 12
+			},
+			{
+				"time": 8,
+				"value": 10
+			},
+			{
+				"time": 9,
+				"value": 8
+			},
+			{
+				"time": 10,
+				"value": 12
+			},
+			{
+				"time": 11,
+				"value": 21
+			},
+			{
+				"time": 12,
+				"value": 4
+			},
+			{
+				"time": 13,
+				"value": 18
+			},
+			{
+				"time": 14,
+				"value": 13
+			},
+			{
+				"time": 15,
+				"value": 14
+			},
+			{
+				"time": 16,
+				"value": 16
+			},
+			{
+				"time": 17,
+				"value": 36
+			},
+			{
+				"time": 18,
+				"value": 21
+			},
+			{
+				"time": 19,
+				"value": 18
+			},
+			{
+				"time": 20,
+				"value": 18
+			},
+			{
+				"time": 21,
+				"value": 29
+			},
+			{
+				"time": 22,
+				"value": 23
+			},
+			{
+				"time": 23,
+				"value": 138
+			}
+		]
+	},
+	{
+		"patient": 4,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.2698672216
+			},
+			{
+				"time": 1,
+				"value": 0.4845157255
+			},
+			{
+				"time": 2,
+				"value": 1
+			},
+			{
+				"time": 3,
+				"value": 0.3087745314
+			},
+			{
+				"time": 4,
+				"value": 0.03066446271
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0.1074966393
+			},
+			{
+				"time": 7,
+				"value": 0.2748716033
+			},
+			{
+				"time": 8,
+				"value": 0.3450661602
+			},
+			{
+				"time": 9,
+				"value": 0.2725862842
+			},
+			{
+				"time": 10,
+				"value": 0.2864053146
+			},
+			{
+				"time": 11,
+				"value": 0.3019582511
+			},
+			{
+				"time": 12,
+				"value": 0.306340549
+			},
+			{
+				"time": 13,
+				"value": 0.3008450924
+			},
+			{
+				"time": 14,
+				"value": 0.3164299482
+			},
+			{
+				"time": 15,
+				"value": 0.3613399225
+			},
+			{
+				"time": 16,
+				"value": 0.5027508744
+			},
+			{
+				"time": 17,
+				"value": 0.3214301687
+			},
+			{
+				"time": 18,
+				"value": 0.155454949
+			},
+			{
+				"time": 19,
+				"value": 0.1635366605
+			},
+			{
+				"time": 20,
+				"value": 0.1863752222
+			},
+			{
+				"time": 21,
+				"value": 0.209387958
+			},
+			{
+				"time": 22,
+				"value": 0.2369736205
+			},
+			{
+				"time": 23,
+				"value": 0.2187746101
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 1
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 2
+			},
+			{
+				"time": 15,
+				"value": 1
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 2
+			},
+			{
+				"time": 18,
+				"value": 3
+			},
+			{
+				"time": 19,
+				"value": 7
+			},
+			{
+				"time": 20,
+				"value": 3
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 1
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 5,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.5252239165
+			},
+			{
+				"time": 1,
+				"value": 0.774160308
+			},
+			{
+				"time": 2,
+				"value": 1
+			},
+			{
+				"time": 3,
+				"value": 0.6192735219
+			},
+			{
+				"time": 4,
+				"value": 0.5338192536
+			},
+			{
+				"time": 5,
+				"value": 0.4764020874
+			},
+			{
+				"time": 6,
+				"value": 0.3932735989
+			},
+			{
+				"time": 7,
+				"value": 0.3628953507
+			},
+			{
+				"time": 8,
+				"value": 0.3376591093
+			},
+			{
+				"time": 9,
+				"value": 0.2464175141
+			},
+			{
+				"time": 10,
+				"value": 0.1355877959
+			},
+			{
+				"time": 11,
+				"value": 0.02233254554
+			},
+			{
+				"time": 12,
+				"value": 0.005609380918
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0.01024380043
+			},
+			{
+				"time": 15,
+				"value": 0.007133257428
+			},
+			{
+				"time": 16,
+				"value": 0.01072313072
+			},
+			{
+				"time": 17,
+				"value": 0.02225640995
+			},
+			{
+				"time": 18,
+				"value": 0.02313765164
+			},
+			{
+				"time": 19,
+				"value": 0.03257186027
+			},
+			{
+				"time": 20,
+				"value": 0.03107024257
+			},
+			{
+				"time": 21,
+				"value": 0.03792840778
+			},
+			{
+				"time": 22,
+				"value": 0.03706763397
+			},
+			{
+				"time": 23,
+				"value": 0.07815433545
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 2
+			},
+			{
+				"time": 6,
+				"value": 3
+			},
+			{
+				"time": 7,
+				"value": 1
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 1
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 1
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 6,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.007026262661
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0.01939240224
+			},
+			{
+				"time": 3,
+				"value": 0.04042703403
+			},
+			{
+				"time": 4,
+				"value": 0.05110324346
+			},
+			{
+				"time": 5,
+				"value": 0.06375171154
+			},
+			{
+				"time": 6,
+				"value": 0.09292294039
+			},
+			{
+				"time": 7,
+				"value": 0.2680018446
+			},
+			{
+				"time": 8,
+				"value": 0.5630103589
+			},
+			{
+				"time": 9,
+				"value": 0.698382507
+			},
+			{
+				"time": 10,
+				"value": 0.7687681562
+			},
+			{
+				"time": 11,
+				"value": 0.8971920726
+			},
+			{
+				"time": 12,
+				"value": 0.9500781115
+			},
+			{
+				"time": 13,
+				"value": 0.9758800612
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 0.9620374221
+			},
+			{
+				"time": 16,
+				"value": 0.9565044609
+			},
+			{
+				"time": 17,
+				"value": 0.8263237421
+			},
+			{
+				"time": 18,
+				"value": 0.614748532
+			},
+			{
+				"time": 19,
+				"value": 0.5360640917
+			},
+			{
+				"time": 20,
+				"value": 0.478211847
+			},
+			{
+				"time": 21,
+				"value": 0.4264203668
+			},
+			{
+				"time": 22,
+				"value": 0.2620070181
+			},
+			{
+				"time": 23,
+				"value": 0.05334111648
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 6
+			},
+			{
+				"time": 2,
+				"value": 5
+			},
+			{
+				"time": 3,
+				"value": 8
+			},
+			{
+				"time": 4,
+				"value": 5
+			},
+			{
+				"time": 5,
+				"value": 11
+			},
+			{
+				"time": 6,
+				"value": 4
+			},
+			{
+				"time": 7,
+				"value": 11
+			},
+			{
+				"time": 8,
+				"value": 1
+			},
+			{
+				"time": 9,
+				"value": 1
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 1
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 4
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 1
+			},
+			{
+				"time": 16,
+				"value": 2
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 1
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 3
+			},
+			{
+				"time": 23,
+				"value": 3
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 3
+			},
+			{
+				"time": 1,
+				"value": 5
+			},
+			{
+				"time": 2,
+				"value": 5
+			},
+			{
+				"time": 3,
+				"value": 2
+			},
+			{
+				"time": 4,
+				"value": 4
+			},
+			{
+				"time": 5,
+				"value": 3
+			},
+			{
+				"time": 6,
+				"value": 1
+			},
+			{
+				"time": 7,
+				"value": 2
+			},
+			{
+				"time": 8,
+				"value": 1
+			},
+			{
+				"time": 9,
+				"value": 1
+			},
+			{
+				"time": 10,
+				"value": 3
+			},
+			{
+				"time": 11,
+				"value": 1
+			},
+			{
+				"time": 12,
+				"value": 2
+			},
+			{
+				"time": 13,
+				"value": 2
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 3
+			},
+			{
+				"time": 16,
+				"value": 2
+			},
+			{
+				"time": 17,
+				"value": 3
+			},
+			{
+				"time": 18,
+				"value": 4
+			},
+			{
+				"time": 19,
+				"value": 5
+			},
+			{
+				"time": 20,
+				"value": 5
+			},
+			{
+				"time": 21,
+				"value": 4
+			},
+			{
+				"time": 22,
+				"value": 4
+			},
+			{
+				"time": 23,
+				"value": 5
+			}
+		]
+	},
+	{
+		"patient": 7,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.3123356939
+			},
+			{
+				"time": 1,
+				"value": 0.2364371239
+			},
+			{
+				"time": 2,
+				"value": 0.04023085094
+			},
+			{
+				"time": 3,
+				"value": 0.1432959318
+			},
+			{
+				"time": 4,
+				"value": 0.4775838314
+			},
+			{
+				"time": 5,
+				"value": 0.5404123687
+			},
+			{
+				"time": 6,
+				"value": 0.3939234404
+			},
+			{
+				"time": 7,
+				"value": 0.0901958901
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0.1705880413
+			},
+			{
+				"time": 10,
+				"value": 0.03080199669
+			},
+			{
+				"time": 11,
+				"value": 0.1452287519
+			},
+			{
+				"time": 12,
+				"value": 0.4821044089
+			},
+			{
+				"time": 13,
+				"value": 0.5619224398
+			},
+			{
+				"time": 14,
+				"value": 0.5023071586
+			},
+			{
+				"time": 15,
+				"value": 0.5997475791
+			},
+			{
+				"time": 16,
+				"value": 0.356419801
+			},
+			{
+				"time": 17,
+				"value": 0.2335624958
+			},
+			{
+				"time": 18,
+				"value": 0.5984400963
+			},
+			{
+				"time": 19,
+				"value": 0.5700799269
+			},
+			{
+				"time": 20,
+				"value": 1
+			},
+			{
+				"time": 21,
+				"value": 0.6760643127
+			},
+			{
+				"time": 22,
+				"value": 0.6158175041
+			},
+			{
+				"time": 23,
+				"value": 0.6996984767
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 10
+			},
+			{
+				"time": 1,
+				"value": 11
+			},
+			{
+				"time": 2,
+				"value": 20
+			},
+			{
+				"time": 3,
+				"value": 15
+			},
+			{
+				"time": 4,
+				"value": 14
+			},
+			{
+				"time": 5,
+				"value": 17
+			},
+			{
+				"time": 6,
+				"value": 18
+			},
+			{
+				"time": 7,
+				"value": 25
+			},
+			{
+				"time": 8,
+				"value": 20
+			},
+			{
+				"time": 9,
+				"value": 13
+			},
+			{
+				"time": 10,
+				"value": 13
+			},
+			{
+				"time": 11,
+				"value": 5
+			},
+			{
+				"time": 12,
+				"value": 7
+			},
+			{
+				"time": 13,
+				"value": 13
+			},
+			{
+				"time": 14,
+				"value": 4
+			},
+			{
+				"time": 15,
+				"value": 8
+			},
+			{
+				"time": 16,
+				"value": 12
+			},
+			{
+				"time": 17,
+				"value": 5
+			},
+			{
+				"time": 18,
+				"value": 11
+			},
+			{
+				"time": 19,
+				"value": 11
+			},
+			{
+				"time": 20,
+				"value": 19
+			},
+			{
+				"time": 21,
+				"value": 38
+			},
+			{
+				"time": 22,
+				"value": 21
+			},
+			{
+				"time": 23,
+				"value": 6
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 16
+			},
+			{
+				"time": 1,
+				"value": 8
+			},
+			{
+				"time": 2,
+				"value": 26
+			},
+			{
+				"time": 3,
+				"value": 11
+			},
+			{
+				"time": 4,
+				"value": 11
+			},
+			{
+				"time": 5,
+				"value": 5
+			},
+			{
+				"time": 6,
+				"value": 14
+			},
+			{
+				"time": 7,
+				"value": 7
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 2
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 3
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 2
+			},
+			{
+				"time": 15,
+				"value": 9
+			},
+			{
+				"time": 16,
+				"value": 10
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 11
+			},
+			{
+				"time": 19,
+				"value": 6
+			},
+			{
+				"time": 20,
+				"value": 16
+			},
+			{
+				"time": 21,
+				"value": 40
+			},
+			{
+				"time": 22,
+				"value": 23
+			},
+			{
+				"time": 23,
+				"value": 38
+			}
+		]
+	},
+	{
+		"patient": 8,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.4165324704
+			},
+			{
+				"time": 1,
+				"value": 0.1125022133
+			},
+			{
+				"time": 2,
+				"value": 0.08759680184
+			},
+			{
+				"time": 3,
+				"value": 0.05612053488
+			},
+			{
+				"time": 4,
+				"value": 0.04191453461
+			},
+			{
+				"time": 5,
+				"value": 0.06413740696
+			},
+			{
+				"time": 6,
+				"value": 0.04082667289
+			},
+			{
+				"time": 7,
+				"value": 0.06672988282
+			},
+			{
+				"time": 8,
+				"value": 0.0524295786
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0.2764684136
+			},
+			{
+				"time": 11,
+				"value": 0.817348601
+			},
+			{
+				"time": 12,
+				"value": 0.9160153958
+			},
+			{
+				"time": 13,
+				"value": 0.8152955769
+			},
+			{
+				"time": 14,
+				"value": 0.8238999339
+			},
+			{
+				"time": 15,
+				"value": 0.9743915181
+			},
+			{
+				"time": 16,
+				"value": 1
+			},
+			{
+				"time": 17,
+				"value": 0.70597442
+			},
+			{
+				"time": 18,
+				"value": 0.3468846398
+			},
+			{
+				"time": 19,
+				"value": 0.2559433528
+			},
+			{
+				"time": 20,
+				"value": 0.217627945
+			},
+			{
+				"time": 21,
+				"value": 0.2354028781
+			},
+			{
+				"time": 22,
+				"value": 0.5510440993
+			},
+			{
+				"time": 23,
+				"value": 0.8745135674
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 5
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 1
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 2
+			},
+			{
+				"time": 6,
+				"value": 5
+			},
+			{
+				"time": 7,
+				"value": 14
+			},
+			{
+				"time": 8,
+				"value": 39
+			},
+			{
+				"time": 9,
+				"value": 86
+			},
+			{
+				"time": 10,
+				"value": 70
+			},
+			{
+				"time": 11,
+				"value": 30
+			},
+			{
+				"time": 12,
+				"value": 12
+			},
+			{
+				"time": 13,
+				"value": 5
+			},
+			{
+				"time": 14,
+				"value": 10
+			},
+			{
+				"time": 15,
+				"value": 10
+			},
+			{
+				"time": 16,
+				"value": 14
+			},
+			{
+				"time": 17,
+				"value": 9
+			},
+			{
+				"time": 18,
+				"value": 9
+			},
+			{
+				"time": 19,
+				"value": 10
+			},
+			{
+				"time": 20,
+				"value": 12
+			},
+			{
+				"time": 21,
+				"value": 39
+			},
+			{
+				"time": 22,
+				"value": 38
+			},
+			{
+				"time": 23,
+				"value": 23
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 2
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 1
+			}
+		]
+	},
+	{
+		"patient": 9,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.1984117676
+			},
+			{
+				"time": 1,
+				"value": 0.1465635238
+			},
+			{
+				"time": 2,
+				"value": 0.1547559
+			},
+			{
+				"time": 3,
+				"value": 0.1546500486
+			},
+			{
+				"time": 4,
+				"value": 0.1315017931
+			},
+			{
+				"time": 5,
+				"value": 0.09011124862
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0.0739534557
+			},
+			{
+				"time": 8,
+				"value": 0.07747510447
+			},
+			{
+				"time": 9,
+				"value": 0.2284092145
+			},
+			{
+				"time": 10,
+				"value": 0.1784612679
+			},
+			{
+				"time": 11,
+				"value": 0.2174202603
+			},
+			{
+				"time": 12,
+				"value": 0.1982311261
+			},
+			{
+				"time": 13,
+				"value": 0.1398257206
+			},
+			{
+				"time": 14,
+				"value": 0.1655987821
+			},
+			{
+				"time": 15,
+				"value": 0.2495815771
+			},
+			{
+				"time": 16,
+				"value": 0.3001084739
+			},
+			{
+				"time": 17,
+				"value": 0.3445600049
+			},
+			{
+				"time": 18,
+				"value": 0.3410015003
+			},
+			{
+				"time": 19,
+				"value": 0.2430244847
+			},
+			{
+				"time": 20,
+				"value": 0.4409735063
+			},
+			{
+				"time": 21,
+				"value": 0.8313860892
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 0.6444606571
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 1
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 4
+			},
+			{
+				"time": 13,
+				"value": 8
+			},
+			{
+				"time": 14,
+				"value": 20
+			},
+			{
+				"time": 15,
+				"value": 12
+			},
+			{
+				"time": 16,
+				"value": 20
+			},
+			{
+				"time": 17,
+				"value": 20
+			},
+			{
+				"time": 18,
+				"value": 27
+			},
+			{
+				"time": 19,
+				"value": 23
+			},
+			{
+				"time": 20,
+				"value": 18
+			},
+			{
+				"time": 21,
+				"value": 3
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 20
+			},
+			{
+				"time": 1,
+				"value": 6
+			},
+			{
+				"time": 2,
+				"value": 7
+			},
+			{
+				"time": 3,
+				"value": 2
+			},
+			{
+				"time": 4,
+				"value": 5
+			},
+			{
+				"time": 5,
+				"value": 1
+			},
+			{
+				"time": 6,
+				"value": 11
+			},
+			{
+				"time": 7,
+				"value": 36
+			},
+			{
+				"time": 8,
+				"value": 48
+			},
+			{
+				"time": 9,
+				"value": 12
+			},
+			{
+				"time": 10,
+				"value": 5
+			},
+			{
+				"time": 11,
+				"value": 13
+			},
+			{
+				"time": 12,
+				"value": 20
+			},
+			{
+				"time": 13,
+				"value": 40
+			},
+			{
+				"time": 14,
+				"value": 64
+			},
+			{
+				"time": 15,
+				"value": 69
+			},
+			{
+				"time": 16,
+				"value": 66
+			},
+			{
+				"time": 17,
+				"value": 45
+			},
+			{
+				"time": 18,
+				"value": 41
+			},
+			{
+				"time": 19,
+				"value": 21
+			},
+			{
+				"time": 20,
+				"value": 19
+			},
+			{
+				"time": 21,
+				"value": 6
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 34
+			}
+		]
+	},
+	{
+		"patient": 10,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.6446708013
+			},
+			{
+				"time": 1,
+				"value": 0.5257170408
+			},
+			{
+				"time": 2,
+				"value": 0.5018509651
+			},
+			{
+				"time": 3,
+				"value": 0.4884311887
+			},
+			{
+				"time": 4,
+				"value": 0.4999923161
+			},
+			{
+				"time": 5,
+				"value": 0.1296197208
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0.05296294326
+			},
+			{
+				"time": 8,
+				"value": 0.04769226877
+			},
+			{
+				"time": 9,
+				"value": 0.2335294866
+			},
+			{
+				"time": 10,
+				"value": 0.5110017138
+			},
+			{
+				"time": 11,
+				"value": 0.4935576331
+			},
+			{
+				"time": 12,
+				"value": 0.7946596742
+			},
+			{
+				"time": 13,
+				"value": 0.8595364065
+			},
+			{
+				"time": 14,
+				"value": 0.9425868967
+			},
+			{
+				"time": 15,
+				"value": 0.9291192477
+			},
+			{
+				"time": 16,
+				"value": 0.7328831936
+			},
+			{
+				"time": 17,
+				"value": 0.5153102387
+			},
+			{
+				"time": 18,
+				"value": 0.2599751334
+			},
+			{
+				"time": 19,
+				"value": 0.3320082942
+			},
+			{
+				"time": 20,
+				"value": 0.1912519493
+			},
+			{
+				"time": 21,
+				"value": 0.7034564205
+			},
+			{
+				"time": 22,
+				"value": 0.9750517006
+			},
+			{
+				"time": 23,
+				"value": 1
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 22
+			},
+			{
+				"time": 1,
+				"value": 26
+			},
+			{
+				"time": 2,
+				"value": 6
+			},
+			{
+				"time": 3,
+				"value": 5
+			},
+			{
+				"time": 4,
+				"value": 25
+			},
+			{
+				"time": 5,
+				"value": 17
+			},
+			{
+				"time": 6,
+				"value": 22
+			},
+			{
+				"time": 7,
+				"value": 43
+			},
+			{
+				"time": 8,
+				"value": 18
+			},
+			{
+				"time": 9,
+				"value": 3
+			},
+			{
+				"time": 10,
+				"value": 6
+			},
+			{
+				"time": 11,
+				"value": 8
+			},
+			{
+				"time": 12,
+				"value": 7
+			},
+			{
+				"time": 13,
+				"value": 9
+			},
+			{
+				"time": 14,
+				"value": 13
+			},
+			{
+				"time": 15,
+				"value": 8
+			},
+			{
+				"time": 16,
+				"value": 11
+			},
+			{
+				"time": 17,
+				"value": 16
+			},
+			{
+				"time": 18,
+				"value": 11
+			},
+			{
+				"time": 19,
+				"value": 15
+			},
+			{
+				"time": 20,
+				"value": 17
+			},
+			{
+				"time": 21,
+				"value": 27
+			},
+			{
+				"time": 22,
+				"value": 46
+			},
+			{
+				"time": 23,
+				"value": 23
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 68
+			},
+			{
+				"time": 1,
+				"value": 24
+			},
+			{
+				"time": 2,
+				"value": 32
+			},
+			{
+				"time": 3,
+				"value": 19
+			},
+			{
+				"time": 4,
+				"value": 22
+			},
+			{
+				"time": 5,
+				"value": 10
+			},
+			{
+				"time": 6,
+				"value": 65
+			},
+			{
+				"time": 7,
+				"value": 101
+			},
+			{
+				"time": 8,
+				"value": 15
+			},
+			{
+				"time": 9,
+				"value": 12
+			},
+			{
+				"time": 10,
+				"value": 8
+			},
+			{
+				"time": 11,
+				"value": 12
+			},
+			{
+				"time": 12,
+				"value": 1
+			},
+			{
+				"time": 13,
+				"value": 2
+			},
+			{
+				"time": 14,
+				"value": 3
+			},
+			{
+				"time": 15,
+				"value": 3
+			},
+			{
+				"time": 16,
+				"value": 2
+			},
+			{
+				"time": 17,
+				"value": 4
+			},
+			{
+				"time": 18,
+				"value": 14
+			},
+			{
+				"time": 19,
+				"value": 15
+			},
+			{
+				"time": 20,
+				"value": 25
+			},
+			{
+				"time": 21,
+				"value": 73
+			},
+			{
+				"time": 22,
+				"value": 87
+			},
+			{
+				"time": 23,
+				"value": 71
+			}
+		]
+	},
+	{
+		"patient": 11,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.9383860049
+			},
+			{
+				"time": 1,
+				"value": 1
+			},
+			{
+				"time": 2,
+				"value": 0.9293307899
+			},
+			{
+				"time": 3,
+				"value": 0.9375615062
+			},
+			{
+				"time": 4,
+				"value": 0.998650308
+			},
+			{
+				"time": 5,
+				"value": 0.703661186
+			},
+			{
+				"time": 6,
+				"value": 0.4459431641
+			},
+			{
+				"time": 7,
+				"value": 0.1107700469
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0.03524360379
+			},
+			{
+				"time": 10,
+				"value": 0.1235481637
+			},
+			{
+				"time": 11,
+				"value": 0.1608221059
+			},
+			{
+				"time": 12,
+				"value": 0.149085304
+			},
+			{
+				"time": 13,
+				"value": 0.1877287157
+			},
+			{
+				"time": 14,
+				"value": 0.202408579
+			},
+			{
+				"time": 15,
+				"value": 0.2432994978
+			},
+			{
+				"time": 16,
+				"value": 0.2247075982
+			},
+			{
+				"time": 17,
+				"value": 0.1431268516
+			},
+			{
+				"time": 18,
+				"value": 0.1424493084
+			},
+			{
+				"time": 19,
+				"value": 0.07429395897
+			},
+			{
+				"time": 20,
+				"value": 0.2231378888
+			},
+			{
+				"time": 21,
+				"value": 0.3091081005
+			},
+			{
+				"time": 22,
+				"value": 0.3964886222
+			},
+			{
+				"time": 23,
+				"value": 0.6198585127
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 1
+			},
+			{
+				"time": 7,
+				"value": 5
+			},
+			{
+				"time": 8,
+				"value": 11
+			},
+			{
+				"time": 9,
+				"value": 18
+			},
+			{
+				"time": 10,
+				"value": 36
+			},
+			{
+				"time": 11,
+				"value": 41
+			},
+			{
+				"time": 12,
+				"value": 43
+			},
+			{
+				"time": 13,
+				"value": 53
+			},
+			{
+				"time": 14,
+				"value": 51
+			},
+			{
+				"time": 15,
+				"value": 63
+			},
+			{
+				"time": 16,
+				"value": 45
+			},
+			{
+				"time": 17,
+				"value": 25
+			},
+			{
+				"time": 18,
+				"value": 35
+			},
+			{
+				"time": 19,
+				"value": 25
+			},
+			{
+				"time": 20,
+				"value": 8
+			},
+			{
+				"time": 21,
+				"value": 4
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 1
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 1
+			},
+			{
+				"time": 10,
+				"value": 3
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 2
+			},
+			{
+				"time": 15,
+				"value": 2
+			},
+			{
+				"time": 16,
+				"value": 1
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 3
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 12,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.1266727195
+			},
+			{
+				"time": 1,
+				"value": 0.2815830592
+			},
+			{
+				"time": 2,
+				"value": 0.4412419981
+			},
+			{
+				"time": 3,
+				"value": 0.7848078313
+			},
+			{
+				"time": 4,
+				"value": 0.9636919647
+			},
+			{
+				"time": 5,
+				"value": 0.9751294231
+			},
+			{
+				"time": 6,
+				"value": 1
+			},
+			{
+				"time": 7,
+				"value": 0.9090538111
+			},
+			{
+				"time": 8,
+				"value": 0.5430924751
+			},
+			{
+				"time": 9,
+				"value": 0.3977465032
+			},
+			{
+				"time": 10,
+				"value": 0.4526754418
+			},
+			{
+				"time": 11,
+				"value": 0.2880705811
+			},
+			{
+				"time": 12,
+				"value": 0.1499335098
+			},
+			{
+				"time": 13,
+				"value": 0.1360077674
+			},
+			{
+				"time": 14,
+				"value": 0.1550820091
+			},
+			{
+				"time": 15,
+				"value": 0.1366778842
+			},
+			{
+				"time": 16,
+				"value": 0.2895510153
+			},
+			{
+				"time": 17,
+				"value": 0.3481057657
+			},
+			{
+				"time": 18,
+				"value": 0.3104951169
+			},
+			{
+				"time": 19,
+				"value": 0.2352565695
+			},
+			{
+				"time": 20,
+				"value": 0.1624062033
+			},
+			{
+				"time": 21,
+				"value": 0.1111913481
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0.07734356866
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 1
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 3
+			},
+			{
+				"time": 6,
+				"value": 3
+			},
+			{
+				"time": 7,
+				"value": 1
+			},
+			{
+				"time": 8,
+				"value": 2
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 1
+			},
+			{
+				"time": 16,
+				"value": 1
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 233
+			},
+			{
+				"time": 1,
+				"value": 233
+			},
+			{
+				"time": 2,
+				"value": 241
+			},
+			{
+				"time": 3,
+				"value": 185
+			},
+			{
+				"time": 4,
+				"value": 216
+			},
+			{
+				"time": 5,
+				"value": 144
+			},
+			{
+				"time": 6,
+				"value": 211
+			},
+			{
+				"time": 7,
+				"value": 254
+			},
+			{
+				"time": 8,
+				"value": 169
+			},
+			{
+				"time": 9,
+				"value": 301
+			},
+			{
+				"time": 10,
+				"value": 232
+			},
+			{
+				"time": 11,
+				"value": 161
+			},
+			{
+				"time": 12,
+				"value": 215
+			},
+			{
+				"time": 13,
+				"value": 212
+			},
+			{
+				"time": 14,
+				"value": 150
+			},
+			{
+				"time": 15,
+				"value": 191
+			},
+			{
+				"time": 16,
+				"value": 163
+			},
+			{
+				"time": 17,
+				"value": 168
+			},
+			{
+				"time": 18,
+				"value": 111
+			},
+			{
+				"time": 19,
+				"value": 108
+			},
+			{
+				"time": 20,
+				"value": 179
+			},
+			{
+				"time": 21,
+				"value": 183
+			},
+			{
+				"time": 22,
+				"value": 140
+			},
+			{
+				"time": 23,
+				"value": 158
+			}
+		]
+	},
+	{
+		"patient": 13,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 0.8255477562
+			},
+			{
+				"time": 2,
+				"value": 0.4538616697
+			},
+			{
+				"time": 3,
+				"value": 0.1484997475
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0.02997079091
+			},
+			{
+				"time": 6,
+				"value": 0.04528020283
+			},
+			{
+				"time": 7,
+				"value": 0.04024750044
+			},
+			{
+				"time": 8,
+				"value": 0.01415839957
+			},
+			{
+				"time": 9,
+				"value": 0.08062611579
+			},
+			{
+				"time": 10,
+				"value": 0.2684721523
+			},
+			{
+				"time": 11,
+				"value": 0.577709315
+			},
+			{
+				"time": 12,
+				"value": 0.6671006514
+			},
+			{
+				"time": 13,
+				"value": 0.8112546574
+			},
+			{
+				"time": 14,
+				"value": 0.872914519
+			},
+			{
+				"time": 15,
+				"value": 0.8104457953
+			},
+			{
+				"time": 16,
+				"value": 0.7510537685
+			},
+			{
+				"time": 17,
+				"value": 0.665915289
+			},
+			{
+				"time": 18,
+				"value": 0.7418066811
+			},
+			{
+				"time": 19,
+				"value": 0.8018330624
+			},
+			{
+				"time": 20,
+				"value": 0.8294485592
+			},
+			{
+				"time": 21,
+				"value": 0.6873529988
+			},
+			{
+				"time": 22,
+				"value": 0.7107626652
+			},
+			{
+				"time": 23,
+				"value": 0.8222460779
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 15
+			},
+			{
+				"time": 1,
+				"value": 9
+			},
+			{
+				"time": 2,
+				"value": 10
+			},
+			{
+				"time": 3,
+				"value": 8
+			},
+			{
+				"time": 4,
+				"value": 1
+			},
+			{
+				"time": 5,
+				"value": 1
+			},
+			{
+				"time": 6,
+				"value": 3
+			},
+			{
+				"time": 7,
+				"value": 10
+			},
+			{
+				"time": 8,
+				"value": 15
+			},
+			{
+				"time": 9,
+				"value": 20
+			},
+			{
+				"time": 10,
+				"value": 98
+			},
+			{
+				"time": 11,
+				"value": 56
+			},
+			{
+				"time": 12,
+				"value": 33
+			},
+			{
+				"time": 13,
+				"value": 40
+			},
+			{
+				"time": 14,
+				"value": 32
+			},
+			{
+				"time": 15,
+				"value": 18
+			},
+			{
+				"time": 16,
+				"value": 13
+			},
+			{
+				"time": 17,
+				"value": 23
+			},
+			{
+				"time": 18,
+				"value": 16
+			},
+			{
+				"time": 19,
+				"value": 11
+			},
+			{
+				"time": 20,
+				"value": 10
+			},
+			{
+				"time": 21,
+				"value": 14
+			},
+			{
+				"time": 22,
+				"value": 9
+			},
+			{
+				"time": 23,
+				"value": 10
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 6
+			},
+			{
+				"time": 1,
+				"value": 29
+			},
+			{
+				"time": 2,
+				"value": 21
+			},
+			{
+				"time": 3,
+				"value": 34
+			},
+			{
+				"time": 4,
+				"value": 31
+			},
+			{
+				"time": 5,
+				"value": 41
+			},
+			{
+				"time": 6,
+				"value": 45
+			},
+			{
+				"time": 7,
+				"value": 38
+			},
+			{
+				"time": 8,
+				"value": 24
+			},
+			{
+				"time": 9,
+				"value": 18
+			},
+			{
+				"time": 10,
+				"value": 12
+			},
+			{
+				"time": 11,
+				"value": 28
+			},
+			{
+				"time": 12,
+				"value": 5
+			},
+			{
+				"time": 13,
+				"value": 30
+			},
+			{
+				"time": 14,
+				"value": 37
+			},
+			{
+				"time": 15,
+				"value": 13
+			},
+			{
+				"time": 16,
+				"value": 18
+			},
+			{
+				"time": 17,
+				"value": 25
+			},
+			{
+				"time": 18,
+				"value": 14
+			},
+			{
+				"time": 19,
+				"value": 7
+			},
+			{
+				"time": 20,
+				"value": 17
+			},
+			{
+				"time": 21,
+				"value": 6
+			},
+			{
+				"time": 22,
+				"value": 7
+			},
+			{
+				"time": 23,
+				"value": 8
+			}
+		]
+	},
+	{
+		"patient": 14,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.1693808853
+			},
+			{
+				"time": 1,
+				"value": 0.1060993612
+			},
+			{
+				"time": 2,
+				"value": 0.08020288817
+			},
+			{
+				"time": 3,
+				"value": 0.04605443057
+			},
+			{
+				"time": 4,
+				"value": 0.00708332106
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0.02429306585
+			},
+			{
+				"time": 7,
+				"value": 0.2397990513
+			},
+			{
+				"time": 8,
+				"value": 0.5329883057
+			},
+			{
+				"time": 9,
+				"value": 0.8117832837
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 0.9863233819
+			},
+			{
+				"time": 12,
+				"value": 0.9025512773
+			},
+			{
+				"time": 13,
+				"value": 0.8837016933
+			},
+			{
+				"time": 14,
+				"value": 0.8647441175
+			},
+			{
+				"time": 15,
+				"value": 0.8429942424
+			},
+			{
+				"time": 16,
+				"value": 0.9014516883
+			},
+			{
+				"time": 17,
+				"value": 0.9732965748
+			},
+			{
+				"time": 18,
+				"value": 0.9609509553
+			},
+			{
+				"time": 19,
+				"value": 0.8316969422
+			},
+			{
+				"time": 20,
+				"value": 0.7075708219
+			},
+			{
+				"time": 21,
+				"value": 0.5880190538
+			},
+			{
+				"time": 22,
+				"value": 0.4294193867
+			},
+			{
+				"time": 23,
+				"value": 0.2796830752
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 1
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 1
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 2
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 1
+			},
+			{
+				"time": 17,
+				"value": 1
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 1
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 0
+			},
+			{
+				"time": 22,
+				"value": 0
+			},
+			{
+				"time": 23,
+				"value": 0
+			}
+		]
+	},
+	{
+		"patient": 15,
+		"spikes": [
+			{
+				"time": 0,
+				"value": 0.2301015977
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 0.05059507754
+			},
+			{
+				"time": 3,
+				"value": 0.07038624945
+			},
+			{
+				"time": 4,
+				"value": 0.09498221264
+			},
+			{
+				"time": 5,
+				"value": 0.0531743116
+			},
+			{
+				"time": 6,
+				"value": 0.1747778697
+			},
+			{
+				"time": 7,
+				"value": 0.478687338
+			},
+			{
+				"time": 8,
+				"value": 0.6414272304
+			},
+			{
+				"time": 9,
+				"value": 0.7826757772
+			},
+			{
+				"time": 10,
+				"value": 0.8932330522
+			},
+			{
+				"time": 11,
+				"value": 0.9210503141
+			},
+			{
+				"time": 12,
+				"value": 0.949518149
+			},
+			{
+				"time": 13,
+				"value": 1
+			},
+			{
+				"time": 14,
+				"value": 0.98856469
+			},
+			{
+				"time": 15,
+				"value": 0.9166090551
+			},
+			{
+				"time": 16,
+				"value": 0.918049237
+			},
+			{
+				"time": 17,
+				"value": 0.8976386242
+			},
+			{
+				"time": 18,
+				"value": 0.8477953202
+			},
+			{
+				"time": 19,
+				"value": 0.8001622819
+			},
+			{
+				"time": 20,
+				"value": 0.7840337831
+			},
+			{
+				"time": 21,
+				"value": 0.7604952082
+			},
+			{
+				"time": 22,
+				"value": 0.7229923922
+			},
+			{
+				"time": 23,
+				"value": 0.5668626807
+			}
+		],
+		"seizures": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 1
+			},
+			{
+				"time": 2,
+				"value": 0
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 0
+			},
+			{
+				"time": 7,
+				"value": 1
+			},
+			{
+				"time": 8,
+				"value": 7
+			},
+			{
+				"time": 9,
+				"value": 6
+			},
+			{
+				"time": 10,
+				"value": 2
+			},
+			{
+				"time": 11,
+				"value": 4
+			},
+			{
+				"time": 12,
+				"value": 4
+			},
+			{
+				"time": 13,
+				"value": 4
+			},
+			{
+				"time": 14,
+				"value": 1
+			},
+			{
+				"time": 15,
+				"value": 3
+			},
+			{
+				"time": 16,
+				"value": 9
+			},
+			{
+				"time": 17,
+				"value": 7
+			},
+			{
+				"time": 18,
+				"value": 6
+			},
+			{
+				"time": 19,
+				"value": 3
+			},
+			{
+				"time": 20,
+				"value": 2
+			},
+			{
+				"time": 21,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 3
+			},
+			{
+				"time": 23,
+				"value": 1
+			}
+		],
+		"seizures_sub": [
+			{
+				"time": 0,
+				"value": 0
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 2
+			},
+			{
+				"time": 3,
+				"value": 0
+			},
+			{
+				"time": 4,
+				"value": 0
+			},
+			{
+				"time": 5,
+				"value": 0
+			},
+			{
+				"time": 6,
+				"value": 1
+			},
+			{
+				"time": 7,
+				"value": 0
+			},
+			{
+				"time": 8,
+				"value": 0
+			},
+			{
+				"time": 9,
+				"value": 0
+			},
+			{
+				"time": 10,
+				"value": 0
+			},
+			{
+				"time": 11,
+				"value": 0
+			},
+			{
+				"time": 12,
+				"value": 0
+			},
+			{
+				"time": 13,
+				"value": 0
+			},
+			{
+				"time": 14,
+				"value": 0
+			},
+			{
+				"time": 15,
+				"value": 0
+			},
+			{
+				"time": 16,
+				"value": 0
+			},
+			{
+				"time": 17,
+				"value": 0
+			},
+			{
+				"time": 18,
+				"value": 0
+			},
+			{
+				"time": 19,
+				"value": 0
+			},
+			{
+				"time": 20,
+				"value": 0
+			},
+			{
+				"time": 21,
+				"value": 2
+			},
+			{
+				"time": 22,
+				"value": 2
+			},
+			{
+				"time": 23,
+				"value": 3
+			}
+		]
+	}
+]
