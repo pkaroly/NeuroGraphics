@@ -16,15 +16,18 @@ p {
 p a {
   text-decoration: underline;
 }
-h1,
+h1 {
+    font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-    /*text-transform: uppercase;*/
+    /*text-transform: uppercase; Montserrat*/ 
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 a {
   color: #404040;
@@ -62,8 +65,9 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
+  margin-top: 200px;
   padding: 100px 0 50px;
-  color: white;
+  color:  #161B4C;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -180,8 +184,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    /*background: #18bc9c;*/
-    background: #5B7F95;
+    background: #D19900;
 }
 
 section.success a,
