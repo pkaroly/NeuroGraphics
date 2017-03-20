@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Seizure Connectivity</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Nav-bar CSS -->
+    <link href="css/nav2.css" rel="stylesheet">
+
+    <!-- Paper-specific styles (i.e. data charts) -->
+    <link href="css/long_short.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!-- if font-awesome is donwloaded -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="font-awesome/css/academicons.css">
+
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>    
+                        <a href="index.html"><span class='color-text' > Homepage </span> </a>
+                    </li>
+
+                    <li>
+                        <a href="#data-vis"> <span class='color-text' > Show me the Data</span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/longshort/splash.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1 class = 'color-text'>Seizure Connectivity Patterns</h1>
+                        <h2 class="subheading color-text">Visualizing state/parameter estimation of a neural mass model</h2>
+                        <span class="meta"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- background -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <h2 class="section-heading">Background</h2>
+
+                    <p> 
+                        We track the states and parameters of a neural mass model during recordings of epilepic seizures. The model has three neural populations (ensembles): <b>Excitatory</b>, <b>Inhibitory</b> & <b>Pyramidal</b>. <p>
+
+                        <p>(Fast) states represent the activation of each neural ensemble. (Slowly varying) parameters represent connectivity between neural ensembles.
+                    </p>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Paper Data-Vis -->
+    <section class='contrast-section', id = 'data-vis'>
+        <div class='container'>
+            <!-- Heading -->
+            <div class='row'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 class='contrast-text'>Data Visualization</h2>
+                <l>
+
+
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Check out this seizure data" data-via="pjkaroly" data-size="large"></a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </l>
+      
+                <p class='contrast-text'>This is a work in progress </p>
+
+                </div>
+            </div>
+
+            <p></p>
+ 
+            <div class = 'row warning'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class = 'contrast-text'>My data won't fit on your screen!</p>
+                </div>
+            </div>
+ 
+
+            <div class = 'row' id = 'data_chart'>
+            
+            <div class="col-md-10">
+                <!-- Data Frame -->
+                <div id = "chart_area", class="chart">  </div>
+                <p> </p>
+            </div>
+
+            </div>
+
+        <!-- containter -->
+        </div>  
+    </section>
+
+    <hr>
+
+        <!-- contact us -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+                    <h2 class="section-heading">Contact Us</h2>
+
+                    <p> The authors contact details are: </p>
+                    
+                <div class="col-md-4">
+                    <l>Mark Cook</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=markcook@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Mark_Cook">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4">
+                    <l>Philippa Karoly</l>
+                    <ul class="list-inline">
+                            <li>
+                                <a target = "_blank" href="https://twitter.com/intent/tweet?screen_name=pjkaroly" data-related="pjkaroly">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkaroly@student.unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Philippa_Karoly">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <l>Dean Freestone</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=deanrf@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Dean_Freestone">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div>    
+      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <p class="copyright text-muted">Copyright &copy; 2015 Philippa Karoly <br> (NeuroEngineering Research Laboratory, The University of Melbourne) </p>
+
+                    <p class="copyright text-muted">Data are de-identified and encrypted </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+    <!-- Data-vis -->
+    <script type = "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/long_short.js"> </script>
+
+</body>
+
+</html>

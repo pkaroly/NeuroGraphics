@@ -1,0 +1,73 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.chart {
+  width: 1000px;
+  height: 350px;
+  color: white;
+  display: block;
+}
+
+
+.warning{
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+  #data_chart {
+    display: none;
+  }
+
+  .warning {
+    visibility: visible;
+    display: block;
+  }
+}
+
+.checkbox-major {
+  font-size: 14px;
+  color: white;
+  font-weight: 100;
+}
+
+.checkbox-minor {
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+}
+
+.contrast-text {
+  color:white;
+}
+
+.contrast-section{
+  background: black;
+}
+
+.axis path, .axis line {
+  fill: none;
+  /*stroke: #000;*/
+  stroke: white;
+  shape-rendering: crispEdges;
+  color: white;
+}
+
+.axis text {
+  fill: white;
+  font-size: 12px;
+}
+
+.x-label, .y-label {
+  fill: white;
+  stroke: white;
+  font-size: 12px;
+}
+
+
+}

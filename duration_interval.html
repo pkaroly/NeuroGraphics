@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Durations & Intervals</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Nav-bar CSS -->
+    <link href="css/nav2.css" rel="stylesheet">
+
+    <!-- Paper-specific styles (i.e. data charts) -->
+    <link href="css/duration_interval.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!-- if font-awesome is donwloaded -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="font-awesome/css/academicons.css">
+
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>    
+                        <a href="index.html">Homepage </a>
+                    </li>
+
+                    <li>
+                        <a href="#results">Results</a>
+                    </li>
+
+                    <li>
+                        <a href="#data-vis">Show me the Data</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/durint/splash.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Seizure Intervals & Durations</h1>
+                        <h2 class="subheading">Human focal seizures are characterized by populations of fixed duration and interval</h2>
+                        <span class="meta">Mark Cook, Philippa Karoly, Dean Freestone, David Grayden, David Himes, Kent Leyde, Terry O'Brien, Sam Berkovic, Ray Boston</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- background -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    <p>Find the full text <a target="_blank", href="http://www.ncbi.nlm.nih.gov/pubmed/26717880">here</a> or <a target="_blank", href="https://www.researchgate.net/publication/288837028_Human_focal_seizures_are_characterized_by_populations_of_fixed_duration_and_interval">here</a> (pre-print version) 
+                    </p>
+
+                    <h2 class="section-heading">Background</h2>
+
+                    <p> Here we analyse the seizure durations and inter-seizure intervals in 15 people with epilepsy. The data were continuously recorded during a clinical trial for an implantable seizure prediction device. The details of data collection can be found <a href="http://www.thelancet.com/journals/laneur/article/PIIS1474-4422(13)70075-9/abstract", target="_blank">here</a>. We considered three "types" of seizure in this analysis: </p>
+
+                    
+                    <p><b>Clinical:</b> seizures with clinical symptoms</p>
+                    <p><b>Clinically identical:</b> seizures without symptoms, but the EEG recording indistinguishable from clinical seizures</p>
+                    <p><b>Sub-clinical:</b> seizures without symptoms and different in appearance on EEG (usually abnormal "bursting" activity)</p>
+                    
+
+                    <p>This dataset provides a unique opportunity to investigate the distribution of seizures over long-term periods. The timing of seizures (both duration and time between seizures) provides information on the brain process/es that generate seizures. For instance properties of interest - such as whether seizures are completely random or are dependent on past activity - can be inferred from simply looking at timing information, provided there is enough data. If there are patterns in seizure timing these can be used to improve seizure prediction algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- results -->
+    <section class = "contrast-section", id='results'>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 contrast-text">
+
+                     <h2 class="section-heading">Key Results</h2>
+
+                         <p> Seizure duration and inter-seizure interval were not uniformly distributed. <br> Instead they tended to cluster around one or more characteristic time (when viewed on a logarithmic scale)</p>
+
+                         <p><i>An example patient showing seizure clusters (log scale)</i></p>
+                         <img src = "img/durint/result1.jpg" />
+
+                         <hr>
+
+                         <p>Typically patients with multiple populations of seizure duration also had multiple populations of inter-seizure interval. Long wait times were not necessarily followed by longer seizures and vice versa </p>
+
+                         <hr>
+
+                         <p> The number and position of seizure peaks was different for each subject (people show distinct patterns of seizure activity) </p>
+
+                        <hr>
+
+
+                        <p>Patients with a single peak in seizure duration (also inter-seizure interval) had better prediction outcomes in the clinical trial </p>
+
+                        <p><i>Duration histograms labelled with prediction sensitivity (NA = trial was not completed)</i></p>
+                        <img src = "img/durint/result2.jpg" />
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- interpretation -->
+    <section>
+<!--         <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">      
+
+                     <h2 class="section-heading">Our Interpretation</h2>
+
+                        <p>Multiple distinct seizure populations implies there are different onset mechanisms leading to alternate seizure trajectories of pre-defined length</p>
+
+                     <p> </p>
+
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Paper Data-Vis -->
+    <section class='contrast-section', id = 'data-vis'>
+        <div class='container'>
+            <!-- Heading -->
+            <div class='row'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 class='contrast-text'>Data Visualization</h2>
+                <l>
+
+
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Check out this seizure data" data-via="pjkaroly" data-size="large"></a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </l>
+      
+                <p class='contrast-text'>This is an interactive plot of the patients seizures plotted by duration and pre-seizure interval (scale is logarithmic). Seizures can be color coded by type or time of day (day is 6am - 11pm)</p>
+
+                </div>
+            </div>
+
+            <p></p>
+ 
+            <div class = 'row warning'>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class = 'contrast-text'>My data won't fit on your screen!</p>
+                </div>
+            </div>
+ 
+
+            <div id = 'data_chart'>
+            <!-- Data Panel and Frame -->
+            <div class='row'>
+
+            <!-- Data Vis Panel 1 -->
+            <div class="col-md-2">
+
+                <!-- TITLE PATIENT -->
+                <l class = "checkbox-major">  Patients to Plot </l>
+
+                <div class = "checkbox-major">
+                    <label> <input type = "checkbox" class = "pt_cb_master" value = 0 checked = true />Single </label>
+                </div>
+
+                <div class = "checkbox-major">
+                    <label> <input type = "checkbox" class = "pt_cb_master" value = 1 />Multiple </label>
+                </div>
+
+                <p></p>
+
+                <!-- TITLE PLOT TYPE -->
+                <l class = "checkbox-major">  Plot By </l>
+
+                <div class="checkbox-major"> 
+                    <label> <input type = "checkbox" class = "plot_cb" value = 0 checked = true/>
+                      Duration</label>
+                </div>
+
+                <div class="checkbox-major"> 
+                    <label> <input type = "checkbox" class = "plot_cb" value = 1 checked = true/>
+                      Interval</label>
+                </div>
+
+                <p> </p>
+
+                <l class="checkbox-major">  Colour Code By </l>
+                <!-- START BOXES ONE -->
+                <div id = "Boxes1", class="checkbox-major", value = 1>
+                <!-- SEIZURE TYPE -->
+                <div class="checkbox-major">
+                    <label><input type="checkbox" class="sz_cb_master" value=1 checked="checked"/> Type </label>
+                </div>
+                <!-- Checkboxes -->
+                <div class="checkbox-minor">
+                    <label style="color:#E500F8"><input type="checkbox"  class="sz_cb" value="Type 1" checked="checked"/> Clinical </label>
+                </div>
+
+                <div class="checkbox-minor">
+                    <label style="color:#F4F800"><input type="checkbox" class="sz_cb" value="Type 2" checked="checked"/> Clinically Identical </label>
+                </div>
+
+                <div class="checkbox-minor">
+                    <label style="color:#00F8E1"><input type="checkbox" class="sz_cb" value="Type 3" checked="checked"/> Sub-clinical </label>
+                </div>              
+                </div> <!-- END BOXES 1 -->
+
+                <p></p>
+
+                <!-- START BOXES 2 -->
+                <div id = "Boxes2", class = "checkbox-major" value = 2>
+                <!-- TIME OF DAY -->
+                <div class='checkbox-major'>
+                    <label><input type="checkbox" class="sz_cb_master" value=2 /> Time of Day </label>
+                </div>
+                <!-- Checkboxes -->
+                <div class="checkbox-minor">
+                    <label style="color:#F4F800"><input type="checkbox"  class="sz_cb" value="Day" style = "visibility:hidden"/> Day </label>
+                </div>
+
+                <div class="checkbox-minor">
+                    <label style="color:#E500F8"><input type="checkbox" class="sz_cb" value="Night" style = "visibility:hidden"/> Night </label>
+                </div>              
+                </div> <!-- END BOXES 2 -->
+                </div> <!-- END DATA VIS -->
+
+            
+            <div class="col-md-10">
+                <!-- Data Frame -->
+                <div id = "chart_area", class="chart">  </div>
+                <p> </p>
+
+                <!-- Patient Checkboxes -->
+                <l class="checkbox-major">  Patient Selection </l>
+                <div class = "checkbox-minor">
+                <!-- pt 1 -->
+                <span><label><input type="checkbox" class="pt_cb" value=0 checked = true /> One </label></span>
+                <!-- pt 2 -->
+                <span><label><input type="checkbox" class="pt_cb" value=1 /> Two </label></span>
+                <!-- pt 3 -->
+                <span><label><input type="checkbox" class="pt_cb" value=2 /> Three </label></span>
+                <!-- pt 4 -->
+                <span><label><input type="checkbox" class="pt_cb" value=3 /> Four </label></span>
+                <!-- pt 5 -->
+                <span><label><input type="checkbox" class="pt_cb" value=4 /> Five </label></span>
+                <!-- pt 6 -->
+                <span><label><input type="checkbox" class="pt_cb" value=5 /> Six </label></span>
+                <!-- pt 7 -->
+                <span><label><input type="checkbox" class="pt_cb" value=6 /> Seven </label></span>
+                <!-- pt 8 -->
+                <span><label><input type="checkbox" class="pt_cb" value=7 /> Eight </label></span>
+                <!-- pt 9 -->
+                <span><label><input type="checkbox" class="pt_cb" value=8 /> Nine </label></span>
+                <!-- pt 10 -->
+                <span><label><input type="checkbox" class="pt_cb" value=9 /> Ten </label></span>
+                <!-- pt 11 -->
+                <span><label><input type="checkbox" class="pt_cb" value=10 /> Eleven </label></span>
+                <!-- pt 12 -->
+                <span><label><input type="checkbox" class="pt_cb" value=11 /> Twelve </label></span>
+                <!-- pt 13 -->
+                <span><label><input type="checkbox" class="pt_cb" value=12 /> Thirteen </label></span>
+                <!-- pt 14 -->
+                <span><label><input type="checkbox" class="pt_cb" value=13 /> Fourteen </label></span>
+                <!-- pt 15 -->
+                <span><label><input type="checkbox" class="pt_cb" value=14 /> Fifteen </label></span>
+                </div> <!-- END PATIENT CHECKBOXES -->
+
+            </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <hr>
+
+        <!-- contact us -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+                    <h2 class="section-heading">Contact Us</h2>
+
+                    <p> The authors contact details are: </p>
+                    
+                <div class="col-md-4">
+                    <l>Mark Cook</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=markcook@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Mark_Cook">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4">
+                    <l>Philippa Karoly</l>
+                    <ul class="list-inline">
+                            <li>
+                                <a target = "_blank" href="https://twitter.com/intent/tweet?screen_name=pjkaroly" data-related="pjkaroly">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkaroly@student.unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Philippa_Karoly">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <l>Dean Freestone</l>
+                    <ul class="list-inline">
+
+                            <li>
+                                <a target = "_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=deanrf@unimelb.edu.au&body=">
+                                    <span class="fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a target = "_blank" href="https://www.researchgate.net/profile/Dean_Freestone">
+                                    <span class="fa fa-stack fa-1x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i style = "margin-top: .4em", class="ai ai-researchgate fa-stack-2x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                    </ul>
+                </div>    
+      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <p class="copyright text-muted">Copyright &copy; 2015 Philippa Karoly </p>
+
+                    <p class="copyright text-muted">Data are de-identified and encrypted </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+    <!-- Data-vis -->
+    <script type = "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/duration_interval.js"> </script>
+
+</body>
+
+</html>
